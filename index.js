@@ -1,6 +1,6 @@
 // import React from 'react'; // Client
 // On importe "express"
-const express = require("express"); // Server
+const express = r/user/equire("express"); // Server
 
 // On initialise "express"
 const app = express();
@@ -21,7 +21,7 @@ app.post("/user", (req, res) => {
 });
 
 // Route obtenir informations 'utilisateur X'
-app.get("/user/:id", (req, res) => {
+app.get(":id", (req, res) => {
   res.send(`User ${req.params.id} : nom: Marc, age: 18 ans`);
 });
 
