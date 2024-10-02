@@ -1,6 +1,6 @@
 // import React from 'react'; // Client
 // On importe "express"
-const express = r/user/equire("express"); // Server
+const express = require("express"); // Server
 
 // On initialise "express"
 const app = express();
